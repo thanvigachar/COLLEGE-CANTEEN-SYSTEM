@@ -1,76 +1,77 @@
-# COLLEGE-CANTEEN-SYSTEM
+#  COLLEGE-CANTEEN-SYSTEM
 
-Project Overview
+## 📖 Project Overview
+The **College Canteen Management System** is a complete database-driven application designed to streamline and automate canteen operations.
 
-The College Canteen Management System is a complete database-driven application designed to streamline and automate canteen operations.
+A full DBMS project built using **MySQL** and **Python Tkinter**, integrated with triggers, procedures, functions, and a GUI.
 
-A complete DBMS project built using MySQL and Python Tkinter.
+---
 
-#Collaborators: Thanvi G Achar & T.G.Sanjana
+##  Collaborators
+**Thanvi G Achar**  
+**T.G. Sanjana**
+
+---
 
 ## Features
-- MySQL Database with ER Diagram & Relational Schema
-- Triggers, Procedures & Functions implemented
-- Python Tkinter GUI for Insert, Delete, View, SQL Runner
-- Auto-Bill Generation, Order Processing & Discount Handling
+- MySQL Database with ER Diagram & Relational Schema  
+- Triggers, Procedures & Functions implemented  
+- Python Tkinter GUI for Insert, Delete, View, SQL Runner  
+- Auto-Bill Generation, Order Processing & Discount Handling  
 
-## Tech Stack
-MySQL | Python | Tkinter | SQL | VS Code | MySQL Workbench
+---
 
-Tables Created
+## Tech Stack  
+**MySQL** | **Python** | **Tkinter** | **SQL** | **VS Code** | **MySQL Workbench**
 
-Food
+---
 
-Customer
+##  Tables Created
+- Food  
+- Customer  
+- Administrator  
+- Phone_numbers  
+- Orders  
+- Item  
+- Staff  
+- Offer  
+- Bill  
+- Delivered  
+- Selects  
 
-Administrator
+---
 
-Phone_numbers
+## Database Features
+- Primary Keys & Foreign Keys  
+- Composite Keys  
+- Referential Integrity  
+- Inserted Demo Records  
 
-Orders
+---
 
-Item
+#  Run Project
 
-Staff
+## Setup Instructions
 
-Offer
-
-Bill
-
-Delivered
-
-Selects
-
-Database Features
-Primary Keys & Foreign Keys
-
-Composite Keys
-
-Referential Integrity
-
-Inserted Demo Records
-
-## Run Project
-## 🛠️ Setup Instructions
-
-### 1️⃣ Install Required Python Library
+### ** Install Required Python Library**
+```bash
 pip install mysql-connector-python
-
-### 2️⃣ Import Database
--Open MySQL and run:
+```
+### ** Open MYSQL and run **
+```sql
 source database/college_canteen_SQL.sql;
+```
+### ** Edit inside college_canteen_system_GUI.py: **
+host = "localhost"
 
-### 3️⃣ Update Python DB Credentials
+user = "root"
 
-Edit inside college_canteen_system_GUI.py:
+password = "your_password"
 
-host="localhost"
+database = "college_canteen"
 
-user="root"
+### ** Run the Application  **
+```bash
+python college_canteen_system_GUI.py
 
-password="your_password"
-
-database="college_canteen" 
-
-Run python college_canteen_system_GUI.py
-
+```
